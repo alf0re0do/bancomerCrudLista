@@ -14,8 +14,12 @@ public class Principal {
 		String nombre;
 		float saldo;
 		int menuPrincipal, subMenu, indice;
+		int numeroPrueba;
+		
 
 		Clientes cliente = null;
+		
+		System.out.println("realice cambios en el proyecto");
 
 		LogicaMetodos imp = new LogicaMetodos();
 
